@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace PosLifestyle\DateRangeFilter;
+namespace Craftware\DateRangeFilter;
 
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Builder;
@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Http\Request;
 use InvalidArgumentException;
 use Laravel\Nova\Filters\Filter;
-use PosLifestyle\DateRangeFilter\Enums\Config;
+use Craftware\DateRangeFilter\Enums\Config;
 
 class DateRangeFilter extends Filter
 {
