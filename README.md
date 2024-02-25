@@ -13,7 +13,7 @@ date range picker.
 To install the filter run the following command in your Laravel Nova project:
 
 ```bash
-composer require pos-lifestyle/laravel-nova-date-range-filter
+composer require craftware/laravel-nova-date-range-filter
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ Simply add this filter to the `filters` method in your Nova resource.
 
 ```php
 use Illuminate\Http\Request;
-use PosLifestyle\DateRangeFilter\DateRangeFilter;
+use Craftware\DateRangeFilter\DateRangeFilter;
 
 class CustomResource extends Resource
 {
