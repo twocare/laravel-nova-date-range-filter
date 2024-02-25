@@ -188,8 +188,8 @@ All available settings are provided by the included `Config` enum. See the full 
 
 ```php
 use Illuminate\Http\Request;
-use PosLifestyle\DateRangeFilter\DateRangeFilter;
-use PosLifestyle\DateRangeFilter\Enums\Config;
+use Craftware\DateRangeFilter\DateRangeFilter;
+use Craftware\DateRangeFilter\Enums\Config;
 
 class CustomResource extends Resource
 {
