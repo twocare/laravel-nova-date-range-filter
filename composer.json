@@ -36,13 +36,13 @@
     },
     "autoload": {
         "psr-4": {
-            "PosLifestyle\\DateRangeFilter\\": "src/"
+            "Craftware\\DateRangeFilter\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "PosLifestyle\\DateRangeFilter\\FilterServiceProvider"
+                "Craftware\\DateRangeFilter\\FilterServiceProvider"
             ]
         }
     },
